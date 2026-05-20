@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TasteCraft</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #ff7a00;
+    }
+
+    .navbar a {
+      color: white !important;
+    }
+
+    .hero {
+      background: linear-gradient(#ff7a00, #ff7a00),
+      url('https://www.tagar.id/Asset/uploads2019/1575231476828-pempek.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+
+    .btn-custom {
+      background-color: #ff7a00;
+      color:  white;
+      border-radius: 30px;
+      padding: 10px 25px;
+    }
+
+    .btn-custom:hover {
+      background-color: #ff7a00;
+      color: white;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #000711;
+      color: white;
+    }
+
+    .hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://www.tagar.id/Asset/uploads2019/1575231476828-pempek.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* efek parallax */
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">TasteCraft </a>
+
+    <button class="navbar-toggler" type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">Tentang Kami</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#produk">Produk</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#testimoni">Testimoni</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">FAQ</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#kontak">Kontak</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero-section text-white d-flex align-items-center">
+  <div class="container text-center">
+    <h1 class="fw-bold display-4">TasteCraft Market</h1>
+    <p class="lead">Gerai Pempek terenak, dan terlengkap</p>
+    <a href="#produk" class="btn btn-light btn-lg mt-3">Lihat</a>
+  </div>
+</section>
+
+<!-- TENTANG KAMI -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+       <img src="https://static.wixstatic.com/media/289c02_09df39c7129641cebf6b94d62da18f6f~mv2_d_4896_3264_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/289c02_09df39c7129641cebf6b94d62da18f6f~mv2_d_4896_3264_s_4_2.jpg"
+class="img-fluid rounded shadow"
+style="width:100%; height:400px; object-fit:cover;"
+alt="Jaket">
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="fw-bold">Tentang TasteCraft </h2>
+        <p>
+         Produk kami terdiri dari berbagai jenis pempek seperti pempek kapal selam, pempek lenjer, pempek adaan, pempek kulit, hingga berbagai varian pempek lainnya yang dibuat dengan resep khas Palembang.
+        </p>
+        <p>
+       Setiap pempek dibuat dari ikan segar pilihan dengan bahan berkualitas sehingga menghasilkan tekstur yang kenyal, gurih, dan lezat. Proses pembuatan dilakukan secara higienis dengan memperhatikan kualitas bahan dan rasa agar tetap terjaga.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Keunggulan -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-title">Keunggulan Kami</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h5>✔ Bahan Ikan Segar</h5>
+        <p>pemek dibuat dari ikan segar pilihan sehingga menghasilkan rasa gurih dan tekstur kenyal.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>✔ Cuko aAsli Khas Palembang</h5>
+        <p>mengunakan resep tradisional dengan perpaduan gula merah, bawang putih, dan cabai berkualitas.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>✔ Harga Terjangkau</h5>
+        <p>rasa premium dengan harga yang tetap ramah di kantong 😆</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Produk -->
+<section id="produk" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Produk Kami</h2>
+    <div class="row">
+
+      <!-- Produk 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow h-100">
+          <img src="https://cdn-brilio-net.akamaized.net/news/2021/12/21/219162/1620285-cara-membuat-pempek-ikan.jpg" class="card-img-top" style="height:300px; object-fit:cover;">
+          <div class="card-body">
+            <h5>Pempek Ikan</h5>
+            <p>Rasa originall.</p>
+            <p class="fw-bold">Rp15.000</p>
+            <a href="#" class="btn btn-custom">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow h-100">
+          <img src="https://img.herstory.co.id/articles/archive_20220113/pempek-20220113-134429.jpg" class="card-img-top" style="height:300px; object-fit:cover;">
+          <div class="card-body">
+            <h5>Pempek Kapal Selam</h5>
+            <p>Cocok buat bersama keluarga.</p>
+            <p class="fw-bold">Rp18.000</p>
+            <a href="#" class="btn btn-custom">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow h-100">
+          <img src="https://3.bp.blogspot.com/-1ep6UfLAqtA/U0T0TNz-buI/AAAAAAAAAnc/fQ9AplGElV8/s1600/pempek+kapal+selam.jpg" class="card-img-top" style="height:300px; object-fit:cover;">
+          <div class="card-body">
+            <h5>Pempek Telur</h5>
+            <p>Rasa lembut dan lumer.</p>
+            <p class="fw-bold">Rp18.000</p>
+            <a href="#" class="btn btn-custom">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery -->
+<section id="gallery" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-title">Gallery</h2>
+    <div class="row gallery">
+      <div class="col-md-4 mb-4">
+        <img src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1626683769/xcvhlyhbwkjdfqivkrz5.jpg">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://cdn.idntimes.com/content-images/community/2019/06/62266560-2371101616290581-2775113140359764580-n-d18e7c80c0d4edee96483b7667e41cad.jpg">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://awsimages.detik.net.id/community/media/visual/2024/04/09/rekomendasi-pempek-di-palembang.jpeg?w=700&q=90">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimoni -->
+<!-- Testimoni -->
+<section class="py-5">
+  <section id="testimoni" class="py-5"></section>
+  <div class="container text-center">
+    <h2 class="section-title">Testimoni Pelanggan</h2>
+
+    <div class="row">
+
+      <!-- 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+          <p>"Pempeknya enak banget, ikan terasa dan cukonya pas."</p>
+          <strong>- Sila, Btn Lamboyan</strong>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+          <p>"Baru pertama coba langsung suka. Teksturnya kenyal dan gurih!"</p>
+          <strong>- Adi, Palembang</strong>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+          <p>"Harga murah tapi kualitas nggak murahan. Worth it banget!"</p>
+          <strong>- Acahh (pelajar), Tanjung Enim</strong>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+          <p>"Pengiriman cepat dan kemasan nya rapih."</p>
+          <strong>- Rusdi, Tegal Rejo</strong>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+          <p>"Sangat Enak!!"</p>
+          <strong>- Tutik, Muara Enim </strong>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+          <p>"Harga lebih murah dibanding Tempat lain."</p>
+          <strong>- Rudii, Pasar Bawah</strong>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">FAQ</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <div class="accordion-item">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+          Apakah bisa COD?
+        </button>
+        <div id="faq1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            Ya, tersedia sistem COD (tergantung lokasi).
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+         Apakah pempeknya menggunakan ikan asli?
+        </button>
+        <div id="faq2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+        Ya, kami menggunakan ikan segar pilihan untuk menjaga kualitas rasa.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+          Berapa lama pempek bisa bertahan?
+        </button>
+        <div id="faq3" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Pempek bisa bertahan sekitar 2-3 hari di suhu ruangan dan hingga 1 minggu didalam kulkas.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Hubungi Kami</h2>
+
+    <div class="row">
+
+      <!-- Form -->
+      <div class="col-md-6 mb-4">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Nama</label>
+            <input type="text" class="form-control" placeholder="Masukkan nama Anda">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Masukkan email Anda">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Pesan</label>
+            <textarea class="form-control" rows="4" placeholder="Tulis pesan Anda"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-custom w-100">
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+
+      <!-- Maps -->
+      <div class="col-md-6">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127157.3082734973!2d105.2460869!3d-5.429689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40db22f1bdb8d7%3A0x3039d80b220cc10!2sBandar%20Lampung!5e0!3m2!1sid!2sid!4v1700000000000"
+          width="100%" 
+          height="350" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-light pt-5 pb-3" 
+style="background: linear-gradient(135deg, #ff7a00, #ff7a00);">
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Kolom 1 -->
+      <div class="col-md-4 mb-4">
+        <h4 class="fw-bold">TasteCraft </h4>
+        <p>
+          TasteCraft terpercaya dengan pempek berbahan berkualitas terbaik dan harga bersaing. 
+          Kepuasan pelanggan adalah prioritas utama kami..
+        </p>
+      </div>
+
+      <!-- Kolom 2 -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Tautan Cepat</h5>
+        <ul class="list-unstyled">
+          <li><a href="#tentang" class="text-light text-decoration-none">Tentang Kami</a></li>
+          <li><a href="#produk" class="text-light text-decoration-none">Jaket</a></li>
+          <li><a href="#faq" class="text-light text-decoration-none">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolom 3 -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Hubungi Kami</h5>
+        <p>📧 info@tastecraft .com</p>
+        <p>📞 +62 812 3456 7890</p>
+        <p>📍 Karang Asam, Indonesia</p>
+
+        <!-- Icon Sosial -->
+        <div>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <p class="text-center mb-0">
+      © 2026 TasteCraft . Made with ❤️
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
